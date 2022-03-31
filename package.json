@@ -7,20 +7,20 @@
     "example": "example"
   },
   "scripts": {
-    "test": "mocha test/**/*Test.js"
+    "test": "mocha tests/**/*Test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "axios": "^0.26.1",
     "inflection": "^1.13.2",
     "lodash": "^4.17.21",
-    "querystring": "^0.2.1",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "querystring": "^0.2.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "chai": "^4.3.6",
+    "mocha": "^7.2.0",
+    "nock": "^13.2.4",
+    "uuid": "^8.3.2"
   }
 }
